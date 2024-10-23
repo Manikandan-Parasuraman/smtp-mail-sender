@@ -55,6 +55,12 @@ This project is a Go application that sends emergency alert emails using Google'
     SMTP_PORT=587
     SMTP_USER=your-email@gmail.com
     SMTP_PASS=your-app-specific-password
+    PANIC_MAIL_ID=
+    KAFKA_HOST=
+    KAFKA_SECURITY_PROTOCOL=
+    KAFKA_SASAL_USERNAME=
+    KAFKA_SASL_PASSWORD=
+    KAFKA_TOPIC=
     ```
 
 Alternatively, you can hardcode these values in the Dockerfile.
